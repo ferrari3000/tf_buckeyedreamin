@@ -57,12 +57,18 @@
                 <behavior>Edit</behavior>
                 <field>Description</field>
             </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>QuantityUnitOfMeasure</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>DisplayUrl</field>
             </layoutItems>
         </layoutColumns>
-        <style>OneColumn</style>
+        <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
         <customLabel>true</customLabel>

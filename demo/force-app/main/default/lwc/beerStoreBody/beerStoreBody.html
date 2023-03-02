@@ -1,3 +1,13 @@
 <template>
-    
+    <template if:true={products}>
+        <template for:each={products} for:item="product">
+            <div key={product.Id} class="product_table">
+                <c-beer-store-product-card
+                    product-name={product.Name}
+                    salesforce-context
+                    product-img-url={product.DisplayUrl}
+                ></c-beer-store-product-card>
+            </div>
+        </template>
+    </template>
 </template>

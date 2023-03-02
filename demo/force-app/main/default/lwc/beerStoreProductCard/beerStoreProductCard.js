@@ -1,3 +1,6 @@
-import { LightningElement } from 'lwc';
+import { LightningElement, api} from 'lwc';
 
-export default class BeerStoreProductCard extends LightningElement {}
+export default class BeerStoreProductCard extends LightningElement {
+    @api productName
+    @api productImgUrl
+}

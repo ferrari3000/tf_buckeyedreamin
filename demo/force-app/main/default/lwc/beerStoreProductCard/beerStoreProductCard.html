@@ -1,3 +1,12 @@
 <template>
-    
+    <lightning-card  title={productName}>
+        <img 
+            class = "product_img"
+            src={url} 
+            alt={productName}
+        />
+        <div class="increase_decrease">
+            <c-beer-store-product-counter></c-beer-store-product-counter>
+        </div>
+    </lightning-card>
 </template>
