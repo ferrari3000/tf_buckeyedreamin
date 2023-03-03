@@ -1,7 +1,7 @@
 <template>
     <template if:true={products}>
         <template for:each={products} for:item="product">
-            <div key={product.Id} class="product_table">
+            <div key={product.Id} class="product-container">
                 <c-beer-store-product-card
                     product-name={product.Name}
                     salesforce-context

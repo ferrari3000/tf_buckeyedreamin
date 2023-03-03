@@ -1,0 +1,8 @@
+.right[app_flexipage-header_header]{
+    display:none;
+}
+
+.slds-card__header-title {
+    justify-content: center;
+    align-items: center;
+}

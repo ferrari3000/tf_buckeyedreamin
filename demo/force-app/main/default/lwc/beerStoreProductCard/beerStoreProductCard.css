@@ -1,0 +1,15 @@
+.product-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card {
+    margin-top: 2%;
+    margin-bottom: -2%;
+    min-width: fit-content;
+}
+
+.increase-decrease {
+    margin-top: 36%;
+}
