@@ -10,6 +10,6 @@ export default class Beer_Store extends LightningElement {
         }
         this.rendered = true;
 
-        loadStyle(this, lightningAppCss)
+        loadStyle(this, lightningAppCss);
     }
 }
