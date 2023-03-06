@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Beer</fullName>
+        <default>false</default>
+        <label>Beer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wine</fullName>
+        <default>false</default>
+        <label>Wine</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spirit</fullName>
+        <default>false</default>
+        <label>Spirit</label>
+    </standardValue>
+</StandardValueSet>

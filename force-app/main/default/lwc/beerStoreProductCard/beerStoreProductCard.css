@@ -1,0 +1,26 @@
+.product-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    text-align: center;
+}
+
+.product-card {
+    margin-top: 2%;
+    margin-bottom: -2%;
+    min-width: fit-content;
+    max-width: 275px;
+    max-height: 200px;
+}
+
+.product-img {
+    float: left;
+    width: 100%;
+    height: 155px;
+    object-fit: cover;
+}
+
+.increase-decrease {
+    margin-top: 2%;
+}

@@ -1,0 +1,6 @@
+.header-container {
+    margin-bottom: 1%;
+    margin-top: -0.5%;
+    display: flex;
+    justify-content: center;  
+}
