@@ -1,6 +1,4 @@
-.beer-footer{
-    padding: 3em;
-    margin-bottom: 0em;
-    margin-top: 8em;
-    background-image: radial-gradient(circle farthest-side, #072A62, #072A62);
+.beer-footer {
+    padding: 4em;
+    margin: 2em;
 }
