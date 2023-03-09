@@ -8,7 +8,10 @@
             />
             <p><lightning-formatted-number value={productPrice} format-style="currency" currency-code="USD" currency-display-as="code"></lightning-formatted-number></p>
             <div class="increase-decrease">
-                <c-beer-store-product-counter></c-beer-store-product-counter>
+                <c-beer-store-product-counter
+                    product-name={productName}
+                    product-id={productId}>
+                </c-beer-store-product-counter>
             </div>
         </lightning-card>
     </div>

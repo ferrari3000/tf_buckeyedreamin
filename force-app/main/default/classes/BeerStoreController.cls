@@ -39,7 +39,6 @@ public with sharing class BeerStoreController {
                 beerStoreProductObj.unitPrice = unitPrice;
                 productList.add(beerStoreProductObj);
             }
-
             payLoad = JSON.serialize(productList);
         }
 
