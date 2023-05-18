@@ -1,10 +1,13 @@
 {
     "orgName": "Universal Containers",
     "sourceOrg": "00D1N000002Kob4",
-    "features": ["DevOpsCenter"],
+    "release": "preview",
+    "features": [
+        "ServiceCloud"
+    ],
     "settings": {
-        "devHubSettings": {
-            "enableDevOpsCenterGA": true
-            }  
-        } 
-  }
+        "omniChannelSettings": {
+            "enableOmniChannel": true
+        }
+    }
+}
