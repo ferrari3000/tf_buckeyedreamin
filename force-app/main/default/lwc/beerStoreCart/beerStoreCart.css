@@ -1,0 +1,21 @@
+.beer-cart {
+    width: 100%;
+    height: 48px;
+}
+
+.beer-store-cart-container {
+    margin-left: 125em;
+    margin-top: -5em;
+    margin-bottom: 1em;
+}
+
+.cart-count {
+    border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        background: #fff;
+        border: 3px solid #FFCCCB;
+        color: #000;
+        text-align: center;
+        position: absolute;
+}
