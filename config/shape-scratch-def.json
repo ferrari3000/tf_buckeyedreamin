@@ -1,13 +1,19 @@
 {
-    "orgName": "Universal Containers",
-    "sourceOrg": "00D1N000002Kob4",
-    "release": "preview",
-    "features": [
-        "ServiceCloud"
-    ],
+    "orgName": "Acme",
+    "sourceOrg": "00D1N000002Kob4UAC",
+    "features": ["Communities", "ServiceCloud", "Chatbot"],
     "settings": {
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": true
+        },
         "omniChannelSettings": {
             "enableOmniChannel": true
+        },
+        "caseSettings": {
+            "systemUserEmail": "support@acme.com"
         }
     }
-}
+  }
