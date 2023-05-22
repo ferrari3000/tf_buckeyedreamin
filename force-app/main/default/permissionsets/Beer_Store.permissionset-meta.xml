@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Beer_Store</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>Access to Beer Store</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Beer Store</label>
+</PermissionSet>
