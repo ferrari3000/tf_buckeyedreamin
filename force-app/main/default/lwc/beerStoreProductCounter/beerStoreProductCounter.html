@@ -1,7 +1,7 @@
 <template>
     <div class="slds-form-element">
         <div class="slds-form-element__control">
-          <button class="slds-button slds-button_icon slds-button_icon-small slds-input__button_decrement" title="Decrement counter">
+          <button class="slds-button slds-button_icon slds-button_icon-small slds-input__button_decrement" onclick={decrementCount} title="Decrement counter">
             <svg fill="#000000" height="800px" width="800px" version="1.1" class="slds-button__icon" xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 330 330" xml:space="preserve">
                 <g>
@@ -16,8 +16,8 @@
             </svg>
             <span class="slds-assistive-text">Decrement counter</span>
           </button>
-          <input type="number" id="default1" placeholder="1" class="slds-input slds-input_counter" />
-          <button class="slds-button slds-button_icon slds-button_icon-small slds-input__button_increment" title="Increment counter">
+          <input type="number" id="default1" placeholder={count} class="slds-input slds-input_counter"/>
+          <button class="slds-button slds-button_icon slds-button_icon-small slds-input__button_increment" onclick={incrementCount} title="Increment counter">
             <svg fill="#000000" height="800px" width="800px" version="1.1" class="slds-button__icon" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 330 330" xml:space="preserve">
                 <g>
