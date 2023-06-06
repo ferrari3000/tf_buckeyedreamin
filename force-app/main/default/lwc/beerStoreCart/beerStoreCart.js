@@ -86,12 +86,12 @@ export default class BeerStoreCart extends LightningElement {
     }
 
     showNotification(errorTitle, errorMessage, errorVariant, errorMode) {
-        // const evt = new ShowToastEvent({
-        //     title: errorTitle,
-        //     message: errorMessage,
-        //     variant: errorVariant,
-        //     mode: errorMode,
-        // });
-        // this.dispatchEvent(evt);
+        const evt = new ShowToastEvent({
+            title: errorTitle,
+            message: errorMessage,
+            variant: errorVariant,
+            mode: errorMode,
+        });
+        this.dispatchEvent(evt);
     }
 }
