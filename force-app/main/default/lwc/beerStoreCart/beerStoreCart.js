@@ -2,6 +2,7 @@ import { LightningElement, track, wire} from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import DOMC from "@salesforce/messageChannel/Dev_Org_Message_Channel__c";
 import {MessageContext, APPLICATION_SCOPE, subscribe, unsubscribe} from 'lightning/messageService';
+
 export default class BeerStoreCart extends LightningElement {
     @track receivedMessage = '';
     @track count = 0;
@@ -86,12 +87,12 @@ export default class BeerStoreCart extends LightningElement {
     }
 
     showNotification(errorTitle, errorMessage, errorVariant, errorMode) {
-        const evt = new ShowToastEvent({
-            title: errorTitle,
-            message: errorMessage,
-            variant: errorVariant,
-            mode: errorMode,
-        });
-        this.dispatchEvent(evt);
+        // const evt = new ShowToastEvent({
+        //     title: errorTitle,
+        //     message: errorMessage,
+        //     variant: errorVariant,
+        //     mode: errorMode,
+        // });
+        // this.dispatchEvent(evt);
     }
 }
