@@ -4,5 +4,6 @@
     "**/bower_components": true,
     "**/.sfdx": true
   },
-  "codeBuilder.showWelcomePage": false
+  "codeBuilder.showWelcomePage": false,
+  "xml.preferences.showSchemaDocumentationType": "none"
 }
